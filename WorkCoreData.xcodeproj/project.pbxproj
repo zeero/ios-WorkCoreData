@@ -15,6 +15,8 @@
 		4B3085851C378F5B0084A03F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3085831C378F5B0084A03F /* LaunchScreen.storyboard */; };
 		4B3085901C378F5B0084A03F /* WorkCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30858F1C378F5B0084A03F /* WorkCoreDataTests.swift */; };
 		4B30859B1C378F5B0084A03F /* WorkCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30859A1C378F5B0084A03F /* WorkCoreDataUITests.swift */; };
+		4B3085AA1C3792AC0084A03F /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3085A81C3792AC0084A03F /* Employee+CoreDataProperties.swift */; };
+		4B3085AB1C3792AC0084A03F /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3085A91C3792AC0084A03F /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4B3085961C378F5B0084A03F /* WorkCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B30859A1C378F5B0084A03F /* WorkCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCoreDataUITests.swift; sourceTree = "<group>"; };
 		4B30859C1C378F5B0084A03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3085A81C3792AC0084A03F /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4B3085A91C3792AC0084A03F /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4B3085831C378F5B0084A03F /* LaunchScreen.storyboard */,
 				4B3085861C378F5B0084A03F /* Info.plist */,
 				4B30857E1C378F5B0084A03F /* WorkCoreData.xcdatamodeld */,
+				4B3085A81C3792AC0084A03F /* Employee+CoreDataProperties.swift */,
+				4B3085A91C3792AC0084A03F /* Employee.swift */,
 			);
 			path = WorkCoreData;
 			sourceTree = "<group>";
@@ -263,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B30857A1C378F5B0084A03F /* ViewController.swift in Sources */,
+				4B3085AA1C3792AC0084A03F /* Employee+CoreDataProperties.swift in Sources */,
 				4B3085801C378F5B0084A03F /* WorkCoreData.xcdatamodeld in Sources */,
+				4B3085AB1C3792AC0084A03F /* Employee.swift in Sources */,
 				4B3085781C378F5B0084A03F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
